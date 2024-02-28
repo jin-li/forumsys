@@ -9,7 +9,7 @@ services:
       MYSQL_ROOT_PASSWORD: secret
       TZ: UTC
     volumes:
-      - mysql-local:/var/lib/mysql
+      - ./forumsys.sql:/docker-entrypoint-initdb.d/forumsys.sql
     ports:
       - 3306:3306
 
