@@ -1,10 +1,11 @@
-package com.service;
+package forum.service;
 
-import com.bean.Comment;
-import com.bean.Post;
-import com.bean.User;
-import com.dao.iCommentDAO;
-import com.db.DBConn;
+import forum.bean.Comment;
+import forum.bean.Post;
+import forum.bean.User;
+import forum.dao.iCommentDAO;
+import forum.db.DBConn;
+
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;

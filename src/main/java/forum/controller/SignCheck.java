@@ -1,8 +1,9 @@
-package com.controller;
+package forum.controller;
 
-import com.bean.User;
-import com.dao.IUserDAO;
-import com.service.UserDAO;
+import forum.bean.User;
+import forum.dao.IUserDAO;
+import forum.service.UserDAO;
+
 import java.io.IOException;
 import java.io.PrintWriter;
 import javax.servlet.annotation.WebServlet;

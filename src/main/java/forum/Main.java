@@ -1,4 +1,4 @@
-package com;
+package forum;
 
 import java.io.File;
 import org.apache.catalina.Context;

@@ -1,8 +1,8 @@
-package com.service;
+package forum.service;
 
-import com.bean.Post;
-import com.dao.IPostDAO;
-import com.db.DBConn;
+import forum.bean.Post;
+import forum.dao.IPostDAO;
+import forum.db.DBConn;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;

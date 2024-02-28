@@ -1,6 +1,7 @@
-package com.dao;
+package forum.dao;
 
-import com.bean.User;
+import forum.bean.User;
+
 import java.util.List;
 
 public interface IUserDAO {

@@ -1,8 +1,9 @@
-package com.service;
+package forum.service;
 
-import com.bean.User;
-import com.dao.IUserDAO;
-import com.db.DBConn;
+import forum.bean.User;
+import forum.dao.IUserDAO;
+import forum.db.DBConn;
+
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -126,7 +127,7 @@ public class UserDAO implements IUserDAO {
     ResultSet rs;
     conn = DBConn.getDBconnection();
     assert conn != null;
-    pstm = conn.prepareStatement("select name,passwd from User where name=?");
+    pstm = conn.prepareStatement("select name,passwd from user where name=?");
     pstm.setString(1,user.getName());
     rs = pstm.executeQuery();
     User user1 = new User();
@@ -151,7 +152,7 @@ public class UserDAO implements IUserDAO {
     ResultSet rs;
     conn = DBConn.getDBconnection();
     assert conn != null;
-    pstm = conn.prepareStatement("select name from User where name=?");
+    pstm = conn.prepareStatement("select name from user where name=?");
     pstm.setString(1,name);
     rs = pstm.executeQuery();
     User user1 = new User();

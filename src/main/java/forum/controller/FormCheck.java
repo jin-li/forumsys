@@ -1,4 +1,4 @@
-package com.controller;
+package forum.controller;
 
 import java.io.IOException;
 import java.io.PrintWriter;

@@ -1,8 +1,9 @@
-package com.controller;
+package forum.controller;
 
-import com.bean.Post;
-import com.dao.IPostDAO;
-import com.service.PostDAO;
+import forum.bean.Post;
+import forum.dao.IPostDAO;
+import forum.service.PostDAO;
+
 import java.io.IOException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;

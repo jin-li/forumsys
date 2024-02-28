@@ -1,8 +1,8 @@
-package com;
+package forum;
 
-import com.bean.Comment;
-import com.dao.iCommentDAO;
-import com.service.CommentDAO;
+import forum.bean.Comment;
+import forum.dao.iCommentDAO;
+import forum.service.CommentDAO;
 
 
 public class Test {

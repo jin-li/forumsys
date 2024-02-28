@@ -1,8 +1,9 @@
-package com.controller;
+package forum.controller;
 
-import com.bean.Comment;
-import com.dao.iCommentDAO;
-import com.service.CommentDAO;
+import forum.bean.Comment;
+import forum.dao.iCommentDAO;
+import forum.service.CommentDAO;
+
 import java.io.IOException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -25,7 +26,7 @@ public class CommentAdd extends HttpServlet {
     comment.setAuthor(author);
     comment.setContent(content);
 
-    iCommentDAO iCommentDAO = new  CommentDAO();
+    iCommentDAO iCommentDAO = new CommentDAO();
     try {
       iCommentDAO.create(comment);
       response

@@ -1,8 +1,9 @@
-package com.dao;
+package forum.dao;
 
-import com.bean.Comment;
-import com.bean.Post;
-import com.bean.User;
+import forum.bean.Comment;
+import forum.bean.Post;
+import forum.bean.User;
+
 import java.util.List;
 
 public interface iCommentDAO {

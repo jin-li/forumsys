@@ -1,6 +1,6 @@
-package com.dao;
+package forum.dao;
 
-import com.bean.Post;
+import forum.bean.Post;
 import java.util.List;
 
 public interface IPostDAO {

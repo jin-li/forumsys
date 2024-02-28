@@ -1,7 +1,7 @@
-<%@ page import="com.dao.IPostDAO" %>
-<%@ page import="com.bean.Post" %>
+<%@ page import="forum.dao.IPostDAO" %>
+<%@ page import="forum.bean.Post" %>
 <%@ page import="java.util.List" %>
-<%@ page import="com.service.PostDAO" %>
+<%@ page import="forum.service.PostDAO" %>
 
 <%--
   Created by IntelliJ IDEA.

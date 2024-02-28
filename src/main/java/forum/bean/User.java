@@ -1,4 +1,4 @@
-package com.bean;
+package forum.bean;
 
 public class User {
   private int uid;

@@ -1,7 +1,7 @@
-<%@ page import="com.dao.IPostDAO" %>
-<%@ page import="com.service.PostDAO" %>
+<%@ page import="forum.dao.IPostDAO" %>
+<%@ page import="forum.service.PostDAO" %>
 <%@ page import="java.util.List" %>
-<%@ page import="com.bean.Post" %>
+<%@ page import="forum.bean.Post" %>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Created by IntelliJ IDEA.

@@ -1,11 +1,11 @@
-package com.db;
+package forum.db;
 
 import java.sql.*;
 
 public class DBConn {
   private static final String driverName = "com.mysql.cj.jdbc.Driver";
   private static final String userName = "root";
-  private static final String userPwd = "root";
+  private static final String userPwd = "secret";
   private static final String dbName = "forumsys";
 
   public static Connection getDBconnection() {

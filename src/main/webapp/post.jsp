@@ -1,10 +1,10 @@
-<%@ page import="com.dao.IPostDAO" %>
-<%@ page import="com.service.PostDAO" %>
-<%@ page import="com.bean.Post" %>
-<%@ page import="com.service.CommentDAO" %>
-<%@ page import="com.dao.iCommentDAO" %>
+<%@ page import="forum.dao.IPostDAO" %>
+<%@ page import="forum.service.PostDAO" %>
+<%@ page import="forum.bean.Post" %>
+<%@ page import="forum.service.CommentDAO" %>
+<%@ page import="forum.dao.iCommentDAO" %>
 <%@ page import="java.util.List" %>
-<%@ page import="com.bean.Comment" %>
+<%@ page import="forum.bean.Comment" %>
 <%--
   Created by IntelliJ IDEA.
   User: zzr11
